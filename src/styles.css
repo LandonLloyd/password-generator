@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-color: darkorchid;
+}
+
+input {
+	height: 25vh;
+	width: 70%;
+	font-size: 3rem;
+}
+
+::placeholder {
+	font-size: 2rem;
+}
+
+#next {
+	height: 25vh;
+	width: 30%;
+	font-size: 2rem;
+}
+
+#inputs {
+	display: flex;
+}
+
+h1 {
+	color: wheat;
+	font-size: 2rem;
+}
+
+p {
+	color: wheat;
+	border-top: 1px solid wheat;
+	text-align: center;
+	font-size: 2em;
+}
+
+a {
+	color: white;
+}

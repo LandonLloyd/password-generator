@@ -1,3 +1,7 @@
 # Password Generator
 
-A small Password Generator I am making to test some of my HTML/JS knowledge!
+A small text checker I made to help someone out with HTML/CSS/JS.
+
+# Live Deployment
+
+[View the live site here!](https://landonlloyd.github.io/text-checker/)

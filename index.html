@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Password Generator</title>
-    <meta charset="UTF-8" />
-  </head>
+	<head>
+		<title>Text Checker</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="src/styles.css" />
+	</head>
 
-  <body>
-    <h1 id="correct">Password Number: 0</h1>
-    <code><h1 id="password">Password</h1></code>
-    <input type="text" id="enterPassword" placeholder="Enter Above Text" />
-    <button id="next">Next Password</button>
-    <script src="src/index.js"></script>
-  </body>
+	<body>
+		<code><h1 id="password">Password</h1></code>
+		<div id="inputs">
+			<input
+				type="text"
+				id="enterPassword"
+				placeholder="Enter Above Text"
+			/>
+			<button id="next">Next Password</button>
+		</div>
+		<code><h1 id="correct">Password Number: 0</h1></code>
+		<p id="instructions">
+			Type the text that appears at the top of your screen into the input
+			field and then click the button and it will tell you if you entered
+			the right text into the box. Don't mess up or you must restart. See
+			how many pieces of text you can get right. Thanks to
+			<a href="https://www.randomlists.com/random-words?dup=false&qty=100"
+				>randomlists.com</a
+			>
+			for the random list of words.
+		</p>
+		<script src="src/index.js"></script>
+	</body>
 </html>

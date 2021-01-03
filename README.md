@@ -1,4 +1,4 @@
-# Password Generator
+# Text Checker
 
 A small text checker I made to help someone out with HTML/CSS/JS.
 
